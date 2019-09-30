@@ -115,7 +115,7 @@ set(gca, 'fontsize', 20);
 
 figure;
 subplot(1, 2, 1);
-trisurf(surface.TRIV, surface.X, surface.Y, surface.Z, d_fm); axis equal;axis off; 
+trisurf(surface.TRIV, surface.X, surface.Y, surface.Z, d_fg); axis equal;axis off; 
 shading interp;lighting phong;cameratoolbar;camlight headlight
 hold on;
 scatter3(surface.X(idx), surface.Y(idx), surface.Z(idx), 150, 'r', 'filled');
