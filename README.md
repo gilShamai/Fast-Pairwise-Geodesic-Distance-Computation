@@ -3,7 +3,8 @@
 
 Matlab code for a fast computation of pairwise geodesic distances on 3D triangle meshes, and on point clouds of any dimension.
 
-<img src="Images/Viz_pic.png" width="900px"/>
+
+<img align="right" img src="Images/Viz_pic.png" width="200px">
 
 ## Setup & Usage
 The project was tested on OSX with Matlab R2019a, and should work on windows 64 as well, to run it: 
